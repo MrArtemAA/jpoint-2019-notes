@@ -12,5 +12,9 @@ At first sight, this looks like a small change that will eliminate unnecessary b
 In this session, we'll explain the fundamentals of local variable type inference. We'll then take a series of examples of the use of var and discuss the technical merits of each case.
 
 ## Ключевые мысли доклада
+* очень важно осмысленное именование. С использование var оно выходит на первый уровень
+* использовать только с inline инициализцией
+* не забывать указывать параметризацию явным образом, не используя <>. Иначе получим <Object>
+* удобно для повышения читаемости кода (try-with-resources, etc.)
 
 ## Собственные мысли, выводы
