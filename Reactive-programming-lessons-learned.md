@@ -10,5 +10,13 @@ Reactive programming enables amazing things. Highly scalable systems consuming j
 Tomasz will share some of his experiences with reactive programming and systems. Where it shines and where it was an over-engineering. What are the hidden costs and common mistakes. How to convince your teammates to start the reactive journey. And, more importantly, how to convince your teammates that going reactive is a dead end. On a case-by-case basis.
 
 ## Ключевые мысли доклада
+* код с использованием reactive сложнее к прочтению
+* размывается доменная модель
+* разработчики должны быть более высокого уровня
+* reactive - способ экономии на железе
+* сам проект должен быть определенного уровня (Netflix point) зрелости и амбиций
 
 ## Собственные мысли, выводы
+* начить разбираться (глубже понимать, когда надо/не надо и вообще, что это за зверь) стоит с более нижнего слоя:
+  * а как все работает на уровне http и запросов
+  * как устроена реактивность
