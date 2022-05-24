@@ -12,5 +12,21 @@ This session shows which non-functional requirements we enterprise developers ne
 Adding telemetry to our applications is crucial to gather insights about the application under production load. We will see how to enhance our microservices with concerns such as monitoring, tracing, or logging in a minimalistic way.
 
 ## Ключевые мысли доклада
+### Внешние сервисы
+- позаботиться о timeout
+- bulkhead (fault tolerance)
+- circuit breaker
+
+### In service
+* Thread pools - think twice
+* Avoid to much logging
+
+### Interservice/infrastracture
+* Container orchestration
+* Service mesh
+
+### Move towards
+* Zero downtime.
+* Swich traffic granulated
 
 ## Собственные мысли, выводы
